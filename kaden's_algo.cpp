@@ -1,5 +1,5 @@
 
-//Kaden's algo modified ( Maximum subarray sum in O(n) )
+//Kaden's algo modified ( Maximum subarray sum in O(n) ) It is also dynamic programming;
 
 #include<bits/stdc++.h>
 using namespace std;
