@@ -23,7 +23,7 @@ public:
 	    if(n == 0 || m == 0)
 	        return ;
 	    
-	    int gap = (n+m)/2 + (n+m)%2;
+	    int gap = (n+m + 1)/2; // + (n+m)%2;
 	    
 	    while(gap){
 	        
@@ -61,7 +61,7 @@ public:
 	            break;
 	        }
 	        
-	        gap = gap/2 + gap%2;
+	        gap = (gap+1)/2;// + gap%2;
 	        
 	    }
 	    
