@@ -14,6 +14,7 @@ void swap(int* a,int* b){
 }
 
 
+
 void moveright(int* arr,int n){
 
     int nzcount=0;
@@ -25,8 +26,7 @@ void moveright(int* arr,int n){
             }
             ++nzcount;
         }
-
-
+        
     }
     return ;
 }
